@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<include schemaLocation=""></include>
+    <complexType name="Cater">
+    	<attribute name="Name" type="string"></attribute>
+    	<attribute name="Address" type="string"></attribute>
+    	<attribute name="Co-ordinates" type="string"></attribute>
+    </complexType>
+</schema> 
