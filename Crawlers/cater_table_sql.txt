@@ -1,0 +1,19 @@
+create table caters (id int NOT NULL AUTO_INCREMENT primary key,
+Name varchar(255) NOT NULL,
+POC varchar(255),
+Address varchar(255),
+Phone varchar(255),
+Mobile varchar(255),
+cuisines varchar(255),
+map_address varchar(255)
+)
+
+create table caters2 (id int NOT NULL AUTO_INCREMENT primary key,
+Name varchar(255) NOT NULL,
+Address varchar(255),
+website varchar(255),
+Phone varchar(255),
+Mobile varchar(255),
+lattitude varchar(255),
+longitude varchar(255)
+)
