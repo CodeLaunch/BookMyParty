@@ -2,7 +2,7 @@ from googleplaces import GooglePlaces, types, lang
 import MySQLdb
 
 def addtable2(Name,Address,website,Phone,Mobile,lattitude,longitude):
-    con = MySQLdb.connect(host='127.0.0.1', user='root', passwd='root', db='cater_db')
+    con = MySQLdb.connect(host='127.0.0.1', user='root', passwd='r00t', db='cater_db')
     cur = con.cursor()
     
     cur.execute('INSERT INTO caters2(Name,Address,website,Phone,Mobile,lattitude,longitude) values (%s,%s,%s,%s,%s,%s,%s)',(Name,Address,website,Phone,Mobile,lattitude,longitude)) 

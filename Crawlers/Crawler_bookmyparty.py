@@ -8,7 +8,7 @@ import MySQLdb
 
 
 def addtable1(Name,POC,Address,Phone,Mobile,Cuisines,map_address):
-    con = MySQLdb.connect(host='127.0.0.1', user='root', passwd='root', db='cater_db')
+    con = MySQLdb.connect(host='127.0.0.1', user='root', passwd='r00t', db='cater_db')
     cur = con.cursor()
     
     cur.execute('INSERT INTO caters(Name,POC,Address,Phone,Mobile,Cuisines,map_address) values (%s,%s,%s,%s,%s,%s,%s)',(Name,POC,Address,Phone,Mobile,Cuisines,map_address)) 
